@@ -1,0 +1,137 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #1a1a1a;
+
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1 h2 h3 h4 h5 { /*праписывать в самом начале всмегда*/
+	margin: 0;
+}
+
+
+.registor_header {
+	
+	width: 320px;
+	height: auto;
+	background-color: #222;
+	border-radius: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.registor_text {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #f65151;
+	font-size: 60px;
+	background-color: #171717;
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+	font-family: 'Staatliches', cursive; 
+}
+
+.reg-forme {
+	display: flex;
+	justify-content: center;
+	
+	color: #fff;
+	background: none;
+	margin-top: 10px;
+	font-size: 10px;
+  	line-height: 27px;
+  	padding: 5px 15px;
+}
+
+.input_optim {
+	background-color: #1a1a1a;
+	border: none;
+	padding: 10px;
+	color: #fff;
+	border: 1px solid;
+	outline: none;
+	border-radius: 20px;
+	transition: all .3s ease-in-out;
+}
+
+.reg-forme input[type="text"]:focus {
+	border: 1px solid #b721cf;
+}
+
+
+
+.reg-forme input[type="password"]:focus {
+	border: 1px solid #215bcf;
+}
+
+.input_optims {
+	text-decoration: none;
+	padding: 2px  20px;
+	border-radius: 10px;
+	border: 1px solid #fff;  
+	color: #fff;
+	transition: all .3s ease-in-out;
+	text-transform: uppercase;
+	
+}
+
+.input_optims:hover {
+	border: 1px solid #36f73d;  
+	color: #36f73d;
+	text-transform: uppercase;
+	
+}
+
+.text_reg_ok {
+	color: #ad0303;
+	width: 100%;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.forget {
+	justify-content: center;
+	display: flex;
+	color: #797979; 
+	margin-top: 10px;
+	font-weight: 700;
+	font-size: 13px; 
+}
+
+.forget:hover {
+	text-decoration: none;
+	color: #fff;
+	transition: all .5s;
+	
+} 
+
+.line-top {
+	margin-top: 20px;
+	border-top: 1px solid #fff;
+}
+
+.form_output {
+	display: flex;
+	align-items: center;
+	padding-left: 15px; 
+	text-decoration: none;
+	font-size: 30px;
+	background: linear-gradient( 45deg, #ff5560, #7134f7);
+  	background-size: auto;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.output {
+	font-size: 15px;
+	margin-left: .5rem;
+}
+

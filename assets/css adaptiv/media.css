@@ -1,0 +1,1238 @@
+@media screen and (max-width: 1024px) {
+
+	.info {
+		font-size: 13px;
+		font-weight: 400;
+		font-style: italic;
+	}
+
+	.number {
+		font-size: 13px;
+	}
+
+	.phone_red {
+		width: 12px;
+		height: 11px;
+	}
+
+	.blok_visual {
+		font-size: 13px;
+	}
+
+	.visuals_eye {
+  		width: 18px;
+  		height: 20px;
+	}
+
+	.logotip {
+  		width: 30px;
+	}
+
+	.logo_text {
+		margin-left: 10px;
+  		width: 50px;
+  		height: 20px;
+  	}
+
+	.nav_link {
+		font-size: 12px;
+		margin-left: 40px;
+
+	}
+
+	form {
+  		margin-right: 20px;
+  	}
+
+  	.intro {
+  		height: 760px;
+  	}
+
+  	.cube {
+  		width: 150px;
+		height: 150px;
+  	}
+
+  	.crucel {
+  		width: 150px;
+		height: 150px;
+  	}
+
+  	.romb_two {
+  		width: 150px;
+		height: 150px;
+  	}
+
+  	.crucel_two {
+  		width: 150px;
+		height: 150px;
+  	}
+
+  	.text_intro {
+  		font-size: 7rem;
+  	}
+
+  	.training_programs {
+  		padding: 20px 0 5px 0;
+  	}
+
+  	.programs_title {
+  		margin: 0px;
+  	}
+
+  	.wrap_inner_seven,
+  	.wrap_inner_four,
+  	.wrap_inner_ten,
+  	.wrap_inner_nine,
+  	.wrap_inner_fivs,
+  	.wrap_inner_six,
+  	.wrap_inner_seventin,
+  	.wrap_inner_second,
+  	.wrap_inner_fotin   {
+  		height: 175px;
+  	}
+
+  	.carmechanic,
+  	.bricks,
+  	.podcast,
+  	.builder,
+  	.towncity,
+  	.goldbars,
+  	.produc,
+  	.trade {
+  		height: 100px;
+  	}
+
+  	.energysolar {
+  		height: 80px;
+  	}
+
+  	.galk,
+  	.galk_two,
+  	.galk_three	{
+  		height: 40px;
+  	}
+
+  	.programs_title_two {
+  		margin: 10px 0px;
+  	}
+
+  	.forms_info {
+  		padding: 0;
+  	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.up_block_call {
+		justify-content: space-around;
+		padding: 0;
+
+	}
+
+	.info {
+		font-size: 10px;
+		font-weight: 400;
+		font-style: italic;
+	}
+
+	.number {
+		font-size: 10px;
+	}
+
+	.phone_red {
+		width: 12px;
+		height: 11px;
+	}
+
+	.blok_visual {
+		font-size: 10px;
+	}
+
+	.visuals_eye {
+  		display: none;
+	}
+
+	.menu_button {
+		margin-left: 5px;
+	}
+
+	.nav_link {
+		font-size: 45%;
+		margin-left: 5px;
+		margin-right: 10px;
+
+	}
+
+	form {
+  		display: none;
+  	}
+
+  	.sectionbgcolor {
+  		top: 80px;
+  	}
+
+  	.colapsed_container {
+  		display: block;
+  	}
+
+  	.nav_colum-wrap {
+  		padding:0 0 0 65px;  
+  	}
+
+  	.main_text_title {
+  		font-size: 8px;
+  	}
+
+  	.main_text_title-smoll {
+  		font-size: 8px;
+  	}
+
+  	.cube {
+  		display: none;
+  	}
+
+  	.crucel {
+  		display: none;
+  	}
+
+  	.romb_two {
+  		display: none;
+  	}
+
+  	.crucel_two {
+  		display: none;
+  	}
+
+  	.programs_inner {
+  		display: block;
+  	}
+
+  	.mini_header {
+  		font-size: 13px;
+  	}
+
+.administrator,
+	.carmechanic,
+	.builder,
+	.innovation,
+	.technician,
+	.energysolar,
+	.bricks,
+	.podcast,
+	.towncity,
+	.moneytransfer,
+	.goldbars,
+	.smarthome,
+	.graph,
+	.trade,
+	.produc,
+	.plantroot,
+	.hotel {
+		display: none;
+	}
+
+	.wrap_inner_second,
+	.wrap_inner_seven,
+	.wrap_inner_four,
+	.wrap_inner_ten,
+	.wrap_inner_fivs,
+	.wrap_inner_six,
+	.wrap_inner_fotin,
+	.wrap_inner_seventin,
+	.wrap_inner_nine {
+		height: auto;
+	}
+
+  	.wrap_form {
+  		font-size: 14px;
+  	}
+
+  	.footer_container {
+  		height: auto;
+  	}
+
+  	.footer_main_text_title {
+  		font-size: 10px;
+  	}
+
+  	.footer_main_text_title-smoll {
+  		font-size: 10px;
+  	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.header_inner {
+		padding: 0;
+	}
+
+	.sectionbgcolor {
+		top: 85px;
+	}
+
+	.nav_link {
+		display: none;
+	}
+
+	.nav_colum-wrap {
+  		padding: 0 0 0 20px;
+	}
+
+	.phone_red {
+		display: none;
+	}
+	.mail {
+		display: none;
+	}
+
+	.nuber_text {
+		margin-left: 50px;
+		font-size: 10px;
+	}
+
+	.programs_title {
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+
+	.futchers_text {
+		font-size: 7px;
+	}
+
+
+
+	.programs_title_two {
+		font-size: 15px;
+	}
+
+	.blockone {
+		font-size: 7px;
+	}
+
+	.wrap_form {
+		font-size: 10px;
+		margin-top: 0px;
+	}
+
+	.Social_network {
+		margin: 10px 0;
+	}
+
+	.vk_style,
+	.youtube_style,
+	.tiktok_style, 
+	.telegram_style {
+		width: 30px;
+	}
+
+	.footer_bg_color {
+		display: none;
+	}
+
+	.galk,
+  	.galk_two,
+  	.galk_three	{
+  		height: 20px;
+  	}
+
+}
+
+@media screen and (max-width: 370px) {
+	.info,
+	.blok_visual {
+		display: none;
+	}
+	.sectionbgcolor {
+  		top: 68px;
+  	}
+
+  	.colapsed_container {
+  		display: block;
+  	}
+
+  	.nav_colum-wrap {
+  		padding:0 0 0 20px;
+  	}
+
+  	.main_text_title {
+  		font-size: 7px;
+  		padding: 3px 0;
+  	}
+
+  	.main_text_title-smoll {
+  		font-size: 5px;
+  		padding: 2px 0;
+  	}
+
+  	.intro {
+  		height: 700px;
+  	}
+
+  	.text_intro {
+  		font-size: 5rem;
+	}
+
+	.mini_header {
+  		font-size: 9px;
+	}
+
+	.news {
+		display: none;
+	}
+
+	.sts {
+		display: none;
+	}
+  	
+}
+ /*nav_colabs*/
+
+@media screen and (max-width: 960px) {
+	.sectionbgcolor {
+		top: 115px;
+	}
+}
+
+@media screen and (max-width: 820px) {
+	.sectionbgcolor {
+		top: 110px;
+	}
+}
+
+@media screen and (max-width: 766px) {
+	.sectionbgcolor {
+		top: 85px;
+	}
+}
+
+@media screen and (max-width: 595px) {
+	.sectionbgcolor {
+		top: 105px;
+	}
+}
+
+@media screen and (max-width: 596px) {
+	.sectionbgcolor {
+		top: 100px;
+	}
+}
+
+@media screen and (max-width: 481px) {
+	.sectionbgcolor {
+		top: 85px;
+	}
+}
+
+@media screen and (max-width: 428px) {
+	.sectionbgcolor {
+		top: 85px;
+	}
+}
+
+
+@media screen and (max-width: 428px) {
+	.sectionbgcolor {
+		top: 85px;
+	}
+}
+
+@media screen and (max-width: 411px) {
+	.sectionbgcolor {
+		top: 95px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.sectionbgcolor {
+		top: 95px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.sectionbgcolor {
+		top: 95px;
+	}
+}
+
+
+@media screen and (max-width: 384px) {
+	.sectionbgcolor {
+		top: 95px;
+	}
+}
+
+@media screen and (max-width: 412px) {
+	.sectionbgcolor {
+		top: 95px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.sectionbgcolor {
+		top: 94px;
+	}
+	.mini_header {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.sectionbgcolor {
+		top: 65px;
+	}
+}
+
+/*abiturient*/
+
+@media screen and (min-width: 980px ) and (max-width: 1199px) {
+	.abi_title {
+  		width: 400px;
+  		margin-bottom: 100px;
+	}
+
+	.form_ab {
+  		justify-content: center;
+	}
+
+	.move_info {
+  		background-color: #fff;
+  		box-shadow: 10px 5px 5px 5px #fff;
+  		width: 90%;
+  		padding: 1% 20%;
+  		margin: 30px 0;
+  		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 768px ) and (max-width: 979px) {
+	.form_ab {
+  		margin-top: 60px;
+	}
+
+	.move_info {
+  		background-color: #fff;
+  		box-shadow: 10px 5px 5px 5px #fff;
+  		width: 90%;
+  		padding: 1% 20%;
+  		margin: 30px 0;
+  		justify-content: center;
+	}
+
+	.abi_text_main,
+	.abi_text {
+		font-size: 30px;
+	}
+
+	.text_info_abi,
+	.download_text, 
+	.pdf_color {
+  		font-size: 10px;
+  		display: flex;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+	.mail,
+	.nuber_text {
+  		font-size: 10px;
+  		margin-left: 30px;
+	}
+
+	.phone_red {
+		display: none;
+	}
+
+	.abi_content {
+		display: block;
+	}
+
+	.abi_content{
+		padding: 10px 10px;
+	}
+
+	.abi_title {
+		width: 400px;
+		height: 150px;
+	}
+
+	.abi_text_main	{
+		font-size: 40px;
+	}
+
+	.abi_p {
+		font-size: 10px;
+	}
+
+	.form_ab {
+		margin-top: 100px;
+		align-items: flex-end;
+		flex-direction: column;
+		display: inline-flex;
+	}
+
+	.form_button {
+		font-size: 15px;
+		border: none;margin: 20px 40px 0 0px;
+	}
+
+	.move_info {
+  		background-color: #fff;
+  		box-shadow: 10px 5px 5px 5px #fff;
+  		width: 90%;
+  		padding: 1% 1%;
+  		margin: 30px 0;
+  		justify-content: center;
+	}
+
+	.dectop_crucel {
+		width: 80px;
+		height: 80px;
+	}
+
+	.files_crucel {
+		width: 80px;
+		height: 80px;
+	}
+
+	.card_crucel {
+		width: 80px;
+		height: 80px;
+	}
+
+	.f_text {
+		margin-top: 0px;
+		font-size: 13px;
+	}
+
+	.text_info_abi,
+	.download_text, 
+	.pdf_color {
+  		font-size: 9px;
+  		display: flex;
+	}
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px)  {
+
+	.mail {
+		display: none;
+	}
+
+	.nuber_text {
+		font-size: 8px;
+	}
+
+	.phone_red {
+		display: none;
+	}
+
+	.abi_content {
+		display: block;
+	}
+
+	.abi_content{
+		padding: 10px 10px;
+	}
+
+	.abi_title {
+		width: 300px;
+		height: 130px;
+	}
+
+	.abi_text_main	{
+		font-size: 20px;
+	}
+
+	.abi_p {
+		font-size: 9px;
+	}
+
+	.a_h_i {
+		font-size: 10px;
+	}
+
+	.form_ab {
+		margin-top: 100px;
+		align-items: flex-end;
+		flex-direction: column;
+		display: inline-flex;
+	}
+
+	.form_button {
+		font-size: 15px;
+		border: none;margin: 20px 40px 0 0px;
+	}
+
+	.move_info {
+  		background-color: #fff;
+  		box-shadow: 10px 5px 5px 5px #fff;
+  		width: 90%;
+  		padding: 1% 1%;
+  		margin: 30px 0;
+  		justify-content: center;
+	}
+
+	.dectop_crucel {
+		width: 50px;
+		height: 50px;
+	}
+
+	.files_crucel {
+		width: 50px;
+		height: 50px;
+	}
+
+	.card_crucel {
+		width: 50px;
+		height: 50px;
+	}
+
+	.f_text {
+		margin-top: 0px;
+		font-size: 10px;
+	}
+
+	.text_info_abi,
+	.download_text, 
+	.pdf_color {
+  		font-size: 8px;
+  		display: flex;
+	}
+
+	.abi_text {
+		font-size: 13px;
+		margin: 20px 0;
+	}
+}
+
+/*fakultet*/
+@media screen and (min-width: 768px ) and (max-width: 979px) {
+	.fakultet_list {
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+
+	.faculties_list_item_title {
+		font-size: 13px;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+	.fa_title_header {
+		padding: 0;
+	}
+
+	.fakultet_list {
+		display: block;
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.faculties_list_item_title {
+  		font-size: 13px;
+  	}
+}
+@media screen and (min-width: 320px) and (max-width: 480px)  {
+	.fa_title_header {
+		padding: 0;
+	}
+
+	.fakultet_list {
+		display: block;
+		width: 100%;
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+
+	.faculties_list_item_title {
+  		font-size: 13px;
+  	}
+
+  	.fa_text {
+  		font-size: 30px;
+  	}
+
+  	.fa_text_smoll {
+  		font-size: 13px;
+  	}
+}
+
+/*students*/
+@media screen and (min-width: 768px ) and (max-width: 979px) {
+	.abi_content{
+		display: block;
+	}
+
+	.abi_help_info{
+		margin-top: 20px;
+	} 
+
+	
+	.stu_life_info_two,
+	.stu_life_info,
+	.news_title_stu,
+	.s_b {
+		font-size: 15px;
+	}
+
+	.s_box_block {
+		width:  100px;
+		height: 100px;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+	.abi_help_info{
+		margin-top: 100px;
+	} 
+
+	
+	.stu_life_info_two,
+	.stu_life_info,
+	.news_title_stu,
+	.data_news_stu,
+	.s_b {
+		font-size: 10px;
+	}
+
+	.news_blog_stu {
+		height: 300px
+	}
+
+	.news_text_stu {
+		font-size: 9px;
+	}
+
+	.s_box_block {
+		width:  100px;
+		height: 100px;
+	}
+
+	.a_h_i {
+		font-size: 10px;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 480px)  {
+
+	.student_one_s {
+		display: none;
+	}
+
+	.abi_help_info{
+		margin-top: 100px;
+	} 
+
+	.stu_life_info_two,
+	.stu_life_info,
+	.s_b {
+		font-size: 10px;
+	}
+
+	
+
+	.news_text_stu {
+		font-size: 9px;
+	}
+
+	.s_box_block {
+		width:  100px;
+		height: 100px;
+	}
+
+	.a_h_i {
+		font-size: 10px;
+	}
+}
+
+/*table_two_adaptive*/
+@media screen and (min-width: 1200px ) and (max-width: 5000px) {
+	.table_two {
+  		display: none;
+  	}
+}
+
+@media screen and (min-width: 980px ) and (max-width: 1199px) {
+
+	.group_sh,
+	.t_g_c,
+	.times,
+	.time {
+		font-size: 13px;
+	}
+
+	.sched_heder_text {
+		padding: 2px 30px;
+	}
+
+	.time {
+		background-color: #fff;
+		padding: 37px 1px;
+	}
+
+	.group_sh {
+  		padding: 0 15px;
+  	}
+
+  	.table_two {
+  		display: none;
+  	}
+}
+@media screen and (min-width: 768px ) and (max-width: 979px) {
+
+	.group_sh,
+	.t_g_c,
+	.times,
+	.time {
+		font-size: 12px;
+	}
+
+	.sched_heder_text {
+		padding: 2px 30px;
+	}
+
+	.time {
+		background-color: #fff0;
+		padding: 37px 1px;
+	}
+
+	.group_sh {
+  		padding: 0 10px;
+  	}
+
+  	.table_two {
+  		display: none;
+  	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+	.tabel_sched {
+		display: block;
+		margin: 0 30px; 
+	}
+
+	.table_one {
+		display: none;
+	}
+
+	.table_two {
+		display: flex;
+			margin: 40px 0;
+		justify-content: center;
+		text-align: center;
+	}
+		
+
+	.group_two {
+		padding: 0 20px;
+		font-size: 14px;
+		background-color: #9d9d9dab;
+		border-radius: 10px;
+	}
+
+	.time_two{
+		font-size: 13px;
+		padding: 10px 1px;
+		background-color: #a6f7d8ab;
+		border-radius: 10px;
+	}
+
+	.t_g_c_two {
+		font-size: 10px;
+		text-align: center;
+		font-weight: 400;
+		padding-top: 5px ;
+	}
+
+	.txt_gr_cb_two {
+		display: flex;
+		flex-direction: column;
+	}
+
+	td {	
+		border-top: 1px solid #a89dc6;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px)  {
+
+.tabel_sched {
+		display: block;
+		margin: 0 10px; 
+	}
+
+	.table_one {
+		display: none;
+	}
+
+	.table_two {
+		display: flex;
+		margin: 40px 0;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.group_two {
+		padding: 0 10px;
+		font-size: 12px;
+		background-color: #9d9d9dab;
+		border-radius: 10px;
+	}
+
+	.time_two {
+		font-size: 11px;
+		padding: 10px 1px;
+		background-color: #a6f7d8ab;
+		border-radius: 10px;
+	}
+
+	.t_g_c_two {
+		font-size: 10px;
+		text-align: center;
+		font-weight: 400;
+		padding-top: 5px ;
+	}
+
+	.txt_gr_cb_two {
+		display: flex;
+		flex-direction: column;
+	}
+
+	td {
+		border-top: 1px solid #a89dc6;
+	}
+
+}
+
+
+
+/* USER */
+
+@media screen and (min-width: 980px ) and (max-width: 1199px) {
+	.model_one {
+		width: 980px;
+		height: auto;
+	}
+
+	.window_individ {
+		margin-left: 20px;
+	}
+}
+
+@media screen and (min-width: 768px ) and (max-width: 979px) {
+	.model_one {
+		width: 768px;
+		height: auto;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+	.model_one {
+		width: 481px;
+		height: auto;
+	}
+
+	.mouth {
+		margin-left: 50px;
+	}
+
+	.nav_u {
+		text-align: center;
+	}
+
+	.nav_link_u {
+		margin-left: 30px;
+		font-size: 12px;
+	}
+
+	.aer_two, .subject, .control_two {
+		font-size: 13px;
+		width: 157px;
+	}
+
+	.kurs, .control, .aer {
+		font-size: 13px;
+		width: 300px;
+	}
+
+	.aer_two, .aer {
+		display: none;
+	}
+
+	.semestor {
+		display: none;
+	}
+
+	.tabs {
+		margin: 10px 0;
+	}
+
+	.info_group_right {
+		display: none;
+	}
+
+	.profil_table_one {
+		margin-top: 10px;
+	}
+
+	.i_t_stu {
+		font-size: 12px;
+	}
+	
+	.academick_semestor, em {
+		display: none;
+	}
+
+	.callball, .con_too {
+		display: none;
+	}
+
+	.acta, .actad {
+		display: none;
+	}
+
+	.po_text {
+		font-size: 9px;
+	}
+
+	.popup_content {
+		width: 420px;
+	}
+
+	.st_line {
+		display: none;
+	}
+
+	.individ_table {
+		font-size: 11px;
+	}
+
+	.individ_table_s {
+		font-size: 11px;
+	}
+
+	
+}
+
+ .po_text {
+	font-size: 13px;
+ }
+
+ .p_text {
+	font-size: 9px;
+  }
+
+  .st_line{
+	width: 350px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px)  {
+	
+	.individ_table {
+		font-size: 11px;
+	}
+
+	.individ_table_s {
+		font-size: 11px;
+	}
+
+	.model_one {
+		width: 320px;
+		height: auto;
+	}
+
+	.mouth {
+		margin-left: 20px;
+	}
+
+	.i_t_stu {
+		font-size: 10px;
+	}
+
+	.st_line{
+		width: 200px;
+	}
+
+	.popup_content {
+		width: 310px;
+	}
+
+	.delete_file {
+		font-size: 8px;
+	}
+
+	.po_text {
+		font-size: 8px;
+	}
+
+	.p_text {
+		font-size: 8px;
+	}
+
+	.academic_title {
+		padding: 5px;
+	}
+
+	.nav_link_u {
+		margin-left: 20px;
+		font-size: 10px;
+	}
+
+	.tab-color {
+		font-size: 10px;
+	}
+
+	.control {
+		font-size: 11px;
+	}
+
+	.semestor {
+		display: none;
+	}
+
+	.tabs {
+		margin: 10px 0;
+	}
+
+	.profil_table_one {
+		margin-top: 10px;
+	}
+
+	.group_size {
+		font-size: 11px;
+	}
+
+	.gs {
+		display: none;
+	}
+
+	.info_group_right {
+		display: none;
+	}
+
+	.kurs, .control, .aer {
+		font-size: 10px;
+		width: 480px;
+	}
+
+	.aer_two, .subject, .control_two {
+		font-size: 10px;
+		width: 77px;
+	}
+
+	.aer_two, .aer {
+		display: none;
+	}
+}
+
+
+
+
+
+
+

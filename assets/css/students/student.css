@@ -1,0 +1,324 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+*::-webkit-scrollbar {
+  width: 7px;               /* ширина scrollbar */
+}
+*::-webkit-scrollbar-track {
+  background: #1a1a1a;        /* цвет дорожки */
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #ff4242;    /* цвет плашки */     
+}
+
+* {
+  scrollbar-width: thin;          /* "auto" или "thin"  */
+  scrollbar-color: #ff4242 #1a1a1a;   /* плашка скролла и дорожка */ 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+	line-height: 1.5;
+    font-size: 18px;
+
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1 h2 h3 h4 h5 { /*праписывать в самом начале всмегда*/
+	margin: 0;
+}
+
+header {
+  background-color: #1f1f1f;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+header.active {
+  opacity: 0.9;
+}
+
+
+.container {
+	width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0; 
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+}
+
+.logotip {
+  width: 50px;
+  height: 40px;
+  fill: #ff4040;
+}
+
+.logo_text {
+  width: 80px;
+  height: 20px;
+  fill: #ff4040;
+}
+
+.double-arrow {
+  fill: #ff4040;
+  width: 35px;
+  height: 25px;
+}
+
+.number_about {
+  display: flex;
+  align-items: center;
+}
+
+.phone_red {
+  margin: 0 5px 0 30px;
+  width: 20px;
+  height: 15px;
+}
+
+.nuber_text {
+  font-size: 15px;
+  color: #fff;
+}
+
+.mail {
+  margin-left: 60px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.logo_link {
+  align-items: center;
+  display: flex;
+}
+/*shapka*/
+
+.abi_section {
+  margin: 20px 0;
+}
+
+.abi_content {
+  display: flex;
+  padding: 10px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.abi_title {
+   width: 600px;
+   height: 250px;
+}
+
+.abi_text_main {
+  font-family: 'Staatliches', cursive;
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: #181940;
+}
+
+.abi_text_two {
+  font-size: 20px;
+  color: #181940;
+}
+
+.abi_p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #181940;
+}
+
+.abi_help_info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+}
+
+.a_h_i {
+  text-decoration: none;
+  padding: 15px 0 8px 0;
+  font-size: 15px;
+  border-bottom: 1px solid #1a1a1a;
+  color: #000;
+  transition: 0.2s;
+  width: 200px;
+}
+
+.a_h_i:hover {
+  color: #ff5555;
+  border-bottom: none;
+  transition: 0.5s;
+}
+
+/*student_one_s*/
+.student_one_s {
+  margin: 30px 0;
+  padding: 5px 0;
+}
+
+.program_title_stu {
+  text-align: center;
+  margin: 10px 0 30px;
+  color: #181940;
+  font-size: 2rem;
+  font-family: 'Staatliches', cursive;
+}
+
+.news_blog_stu_wrapper {
+  display: flex;
+}
+
+.news_blog_stu {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #c2c2c2; 
+  background-color: #fff;
+  transition: .5s;
+  text-decoration: none;
+  width: 35%;
+  margin: 20px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.img_news_stu {
+  margin: 20px 0;
+  text-align: center;
+  color: #181940;
+  display: block;
+  justify-content: center;  
+}
+
+.img_news {
+  fill: #5d5d5d;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.news_title_stu {
+   margin: 5px 5px 5px 5px;
+   font-size: 17px;
+   color: #181940;
+}
+
+.data_news_stu {
+  font-size: 14px;
+  color: #000;
+  margin: 0px 20px;
+  background-color: #b5b5b5;
+  border-radius: 10px;
+  padding: 0 10px;
+  display: block;
+  text-align: end;
+}
+
+.news_text_stu {
+  font-size: 15px;
+  margin: 0 5px;
+  color: #1a1a1a;
+}
+
+
+.news_blog_stu:hover {
+  box-shadow: 0 0 10px #7c7487;
+  transition: 0.7s;
+}
+
+.news_blog_stu:hover .news_title_stu {
+  color: #ff4040;
+  transition: 0.4s;
+}
+
+.news_blog_stu:hover .news_text_stu {
+  transition: 0.7s;
+  color: #ff4040;
+}
+
+/*student_two_s*/
+.student_two_s {
+  margin: 10px;
+}
+
+.stu_life {
+  padding: 10px;
+}
+
+.stu_life_info {
+  font-size: 25px;
+  font-weight: bold;
+  color: #05074a;
+}
+
+.stu_life_img {
+  margin: 20px 0;
+  color: #181940;
+  display: block;
+}
+
+.s_life_i {
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #000;
+}
+
+.stu_life_info_two {
+  font-size: 20px;
+  font-weight: bold;
+  color: #05074a;
+  margin-top: 50px;
+}
+
+.s_help_wrapper {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.s_box {
+  width: 25%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.s_box_block {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  background-color: #4439d6;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cap    {
+  fill: #fff;
+  width: 70%;
+}
+
+.team_plate {
+  fill: #fff;
+  width: 70%;
+}
